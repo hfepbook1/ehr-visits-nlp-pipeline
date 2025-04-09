@@ -88,18 +88,24 @@ Additional analysis includes:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your_username/your_repository.git
-cd your_repository
+git clone https://github.com/your_username/ehr-visits-nlp-pipeline.git
+cd ehr-visits-nlp-pipeline
 ```
 
-### 2. Install Dependencies
-```bash
-pip install streamlit pandas plotly scikit-learn wordcloud transformers matplotlib seaborn
-```
+### 2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 3. Launch the Streamlit App
+### 3. **Generate Synthetic Data:**
+   ```bash
+   python data/generate_synthetic_ehr_data.py
+   ```
+   *This command creates `data/synthetic_ehr_data.csv`.*
+
+### 4. Launch the Streamlit App
 ```bash
-streamlit run streamlit_app.py
+streamlit run main.py
 ```
 
 ---
