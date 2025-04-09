@@ -75,6 +75,7 @@ Additional analysis includes:
 ## 📁 Repository Structure
 - **`synthetic_ehr_data.csv`**: Synthetic dataset containing 10,000 visit records.
 - **`streamlit_app.py`**: Source code for the interactive Streamlit dashboard.
+- **`requirements.txt`**: Necessary installation packages before initializing this app.
 - **`README.md`**: This file.
 
 **Optional Files:**
