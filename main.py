@@ -1,4 +1,6 @@
 import os
+os.environ["TF_KERAS"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
 import re
 import random
 import streamlit as st
@@ -42,7 +44,7 @@ extra_stops = {
 }
 # IMPORTANT: TfidfVectorizer requires stop_words as a list or string; so we cast to list:
 stopwords = list(set(ENGLISH_STOP_WORDS).union(extra_stops))
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 
 st.title("📊 Synthetic EHR Dashboard with Enhanced NLP & Clustering Analysis")
 
