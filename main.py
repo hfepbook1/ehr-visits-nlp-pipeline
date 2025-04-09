@@ -1,6 +1,6 @@
 import os
 os.environ["TF_KERAS"] = "1"
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
+#os.environ["TRANSFORMERS_OFFLINE"] = "1"
 import re
 import random
 import streamlit as st
