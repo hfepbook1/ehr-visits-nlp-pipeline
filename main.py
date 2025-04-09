@@ -22,7 +22,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 # ------------------------------
 @st.cache_data(show_spinner=True)
 def load_data():
-    df = pd.read_csv("synthetic_ehr_data.csv", parse_dates=["visit_date"])
+    df = pd.read_csv("data/synthetic_ehr_data.csv", parse_dates=["visit_date"])
     return df
 
 df = load_data()
@@ -373,5 +373,3 @@ with tab_lab:
         st.caption("Stacked bar chart showing the age group breakdown within each cluster, providing insight into the demographics of each group.")
     else:
         st.write("Not enough data available for clustering.")
-
-st.markdown("### End of Analysis. Thank you for exploring the Synthetic EHR Dashboard!")
