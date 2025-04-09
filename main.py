@@ -111,12 +111,12 @@ def get_top_keywords(text, num=10):
 # ------------------------------
 @st.cache_resource(show_spinner=True)
 def load_summarization_pipeline():
-    summarizer = pipeline("summarization", model="t5-small", use_auth_token=os.environ.get("HF_TOKEN"))
+    summarizer = pipeline("summarization", model="t5-small")
     return summarizer
 
 @st.cache_resource(show_spinner=True)
 def load_sentiment_pipeline():
-    sentiment = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment", use_auth_token=os.environ.get("HF_TOKEN"))
+    sentiment = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
     return sentiment
 
 # ------------------------------
