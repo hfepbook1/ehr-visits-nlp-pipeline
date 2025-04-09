@@ -108,6 +108,10 @@ cd ehr-visits-nlp-pipeline
 streamlit run main.py
 ```
 
+## 🔗 Live Demo
+
+👉 [Try the live app here](https://ehr-visits-nlp-pipeline-nwstsqsytx9abjoe7tpjus.streamlit.app/)
+
 ---
 
 ## 🌐 Deploying on GitHub Pages
