@@ -1,4 +1,3 @@
-```md
 # 🏥 EHR Visits Analysis & NLP Pipeline
 
 ## Overview
