@@ -1,3 +1,7 @@
+import torch
+print("PyTorch version:", torch.__version__)
+import tensorflow as tf
+print("TensorFlow version:", tf.__version__)
 import os
 os.environ["TF_KERAS"] = "1"
 #os.environ["TRANSFORMERS_OFFLINE"] = "1"
