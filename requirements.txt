@@ -8,4 +8,4 @@ matplotlib>=3.6.0
 seaborn>=0.12.0
 torch>=2.6.0
 tensorflow>=2.16.0
-tf-keras>=2.19.0
+tf-keras>=3.9.2
