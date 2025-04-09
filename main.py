@@ -43,8 +43,7 @@ extra_stops = {
 stopwords = list(set(ENGLISH_STOP_WORDS).union(extra_stops))
 
 st.title("📊 Synthetic EHR Dashboard with Enhanced NLP & Clustering Analysis")
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
-st.write("TRANSFORMERS_OFFLINE =", os.environ.get("TRANSFORMERS_OFFLINE"))
+
 # ------------------------------
 # Sidebar Filters and Reset Button
 # ------------------------------
