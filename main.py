@@ -1,8 +1,7 @@
-import torch
-print("PyTorch version:", torch.__version__)
 import os
-#os.environ["TF_KERAS"] = "1"
-#os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["TF_KERAS"] = "1"  # if you need tf-keras, but if using torch this may not be necessary
+import torch
+print("Torch version:", torch.__version__)
 import re
 import random
 import streamlit as st
