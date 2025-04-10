@@ -136,8 +136,3 @@ streamlit run main.py
    ```bash
    mkdocs gh-deploy
    ```
-
----
-
-This project showcases how advanced analytics and NLP can **extract actionable insights** from EHR data, ultimately helping to improve patient care and operational efficiency.
-```
